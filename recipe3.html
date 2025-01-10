@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gourmet Home Eats</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- link to JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<!-- Add style -->
+	<link rel="stylesheet" type="text/css" href="style.css">	
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+
+    <!--Tab Content-->
+    <div class="topnav" id="myTopnav">
+      <a href="file:///Users/allieadm/Desktop/2q/project/index2.html#" class="active">Home</a>
+      <a href="file:///Users/allieadm/Desktop/2q/project/aboutpage.html">About</a>
+      <a href="file:///Users/allieadm/Desktop/2q/project/recipesite.html">Recipes</a>
+      <a href="file:///Users/allieadm/Desktop/2q/project/index3.html">Send A Recipe</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      </a>
+    </div>
+
+    <div class="container">
+      <h1 align="center"> Gourmet Home Eats </h1>
+      <h4 align="center">CATEGORIES</h4>
+    </div>
+
+  <div class="container-fluid" align="center">
+    <div class="row">
+        <div class="col-md-4 mt-5 mb-5">
+          <h3>Halo-halo</h3>
+          <img class="img-thumbnail" mx-auto d-block width=200 src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSExIVFRUXGB0aFhgXFRgaGhofFRcWGhUXGRoYHiggGBolHRcYIjEhJSkrLi4uFx8zODMtNygtLi0BCgoKDg0OGxAQGSslICYtLTctLy4tLTUyNS0yLSstLzUvLS4tNTAtLS0vMDUtLS0tLS0yLS0tLS0tLS0tLS0tLf/AABEIAOAA4AMBIgACEQEDEQH/xAAbAAAABwEAAAAAAAAAAAAAAAAAAQIDBAUGB//EAD8QAAIBAwIDBgQDBQYGAwAAAAECEQADIRIxBAVBBiJRYXGBEzKRoUKxwRRygtHwByNSYpLhFTOissLxFiSz/8QAGgEAAgMBAQAAAAAAAAAAAAAAAAECAwQFBv/EAC8RAAICAQQABQMDAwUAAAAAAAABAhEDBBIhMSJBUWFxE4HwBZHBI6HhFDKx0fH/2gAMAwEAAhEDEQA/AO1UVHRUAChQoUAChQoUACjoqFAAoUKFAAoUKFAAoUKFAAoUKFAAoUKFAAoUKFAAoUKFAAoqOioAFQTf0rcvRPRB/ig6UUH/ADOcfvCneYXiqGPmYhV/ecwPpM+1Ie2DcS0PltAOfUytseezt5EIaAHeC4f4aKkyR8x/xMTLt7sSfen6KhQAqjoqOgAUKFCgAUdN376oJYgDxNV3Hc4CLqWD4efp0moTnGKtkoxbdItaFZgdq0UlWWDOJYSSf8oyBMmdozU08a6jXM+QyDjp/XSpYmsiuI5Y5R7LqhVHY5uzjBhonI6ZGJ3zTvD87UxqEDPeGw0wDPv1FWPHIjRbUKJWBAIMg5BHnR1AQKFChQAKFCioAOhRUdAApnieICCSCfQSfp1p0mqHnfHELIBljpWD8sgwx8PWk+iUVbJN3n9tbZcpcwYI0yd4pXLudW7rEAjy6ETsGH61mOMa2Ht6rQIt5ECYI+cE9d19SKouO55f4llfh7Lm2jd8BO86mZYTkBYnSMnHXFVfVjdc2XfR4ujrFCsZ2T4/iELLdV3tE91mIkd2Y0mD5fQ9TGps8arasiF3zt6joasU0+LKpQaGrzr8XUxASwpdidgWBg/woGP8Qp3l6HTrYQ1w62B3EgBVPmqhV/hrNcm4x+IbQwIW67XXBxFtWXQp/ei2sHddfnWuqbI1QVChQpCDoUVCgA6hcbx2kELvMTG0x9d6kcQ8KapbiyAYJiMDc+Aztn8qtxxT5Y0QOO1fDvXW1k7CGziO6s4GZBPX2FRuO4dhaUtpmQCigxMnT16fmKvL1shCFiYMTnvHIJHXPSqi8mk2Ue4SLQ1MT8zsQQJ8hLH3FTyY45Y01+UTTMxzfgGJViwMArGk5wZJO3sK2PIAH4OzJ1nQAxme8Pmz5NP0FY7m124XZgxC7rkiO9Mekz6g1a9lrzfsrW2ZQfifEX9wuC4ABxBkeWob1g0WneJu+LfH5/cuyz3pch8fzEJDLJ+FqlgIUgGHA+x9ppfMOOEb4K4I8DJHpUnjbFlGFlu93ojyaQPbBms/zTjrQIsKuor3TmAI6CMwB9JrsKik13YvmmqbEkqoOgkye6YdZ3OfyNaqua9jwBxNkICApIImY1Ix9hv9K6XWTOkp8EZdhUKFCqSIVChQoAFChQoAi8yv6V8z/RrMW+Fa6LrXZQPAWG7yqFIMkGJJ8I6eFRe1HGlHu3GJItkCBnunUpAXadvenrXNVKjC4AiR0jArVDHeP5LIprlEDiuFKHvsqqAAinOTlzkyzElt9t+oi15TwRsWmbGq4SYmQojHrk5I8RVNzriGVRcIHfOkf4mj8IG+nO4961SK62gMM4Uaiep6+01HUQUse2LV/wB0WbmqbKDieb2zoFxmR92CdCQATnpJwPMUOzvFFrbXS7CMCYiF2OCdQMDJJGMeNSr3KLYlnVCSZjTicxPicxPlVLxnGmyulTCzkCB3ZOBAwIxtWTQ6TJGTlOrr8ssy5IyVQ/PgteR87Sy98NbYuXljqX5V+UKAZiWc56s20RWz4a+txFdTKsAQR1BEiuBvzgG5euKo1TGFOo6RhR1bGZ8/Wuhf2Y8eyWrXC3InQSBM6TvHkCJMdCK25sSrcjNJG+oUKKspAE0JpM0JoAjc2L/CYoQGERIkbjEfaqDlfHwxV4DHMDpvqG/jJ9DWl4hZUj+sZqhfhUuljpypgg4mNjj23qyEqVDJly6N6zXNr+T1JwP6+n0qdxvBvp/umI8nJj01AEn3qt/4dfhpTvYjvqRkiZ6jExir4TiuWSVFDzF8QT6/oKzfHcfxNpl+AjFydWFLAKphiemkiAYyJ3Eit6nZ7c3Rd/gQn8gampbC2hZW1xBWTBCfDbMmJLKT5msWqy8eDsshNJ8lbxDDiuGtcYBpZwsiSdJEqy+Bh+sdKx9nm6S2lT8cHSSFMHUNhiD4+WSetbB+Dezba2oYWXbAYtccMR3zOqFk9Np9aqhyhbaE6dBnOrJzjPhsPtRk17hjT8x16dF/2EuJc4gFQRpt7kbmIJx+9XQ6yXYPlegPfMy/dX0HzH3IA/hrSHjklgGBKmGgjBiYP1pLNvipy8yppt8EmhSFuAzBBjeDtQe6BuQPU1K0RoVQoUKYgUKKjoAxHaXg1uvc2Uqw3MatmE5zGPpSWFtgBeU2f8+6nbAcYUHzg012m4RFvli0C47HvbA6AIHlKz7mslzftUeGRVtKhLg6zLYjaADG0GqpZnGXoDzbI3LpG64W5wyKLiadRBCkvJI+bGs93aY6Vb2rgielcj43mE/DMqdUSPhqCQd5xMQD1rQcPzq1CrrZZGwuErj5h4gjwNS00+WpPscM0c17b4NXdBdmbcLgD2yax/P2ZgdIAEkfQZ9hU48zuQyC6cfhxsdokT1rM80dyCSRAwJ2zvXUi1FWyxIquW2tNxna4qq40OYYvCjZfYAY2ra9j7gvcdaZdl1HwkFCB96zC8MNSkx8hIjzxP3rZ/2e2FTiAoEt8MmfDMD65+tVSyqUWkElSOi0Ro6I1jKhuaOaamjDUAOg1RcVw+m6CCR0kH3T1/EPYVdA1A5vakCNzI991+4ppgKQ0+OhrM2eeAXfhspyQB03jcHzO4qJx3agozIFAKzliQpIxA0g/eKrlOKVsujgnLpGwuGq3j7p0kKYaDBjaeoqg4DtEL1qTcVHAlhO0bmDJiqfiO2qI9z8SovdYfjYEAqOnXeelUTe7hC+nOMuui65lZUWe+xcghgWySVM+1Q+T3UuXS122XRpESSZOxEnJHtE1X8HzT9oY3HUi2B8pEnurqb26D0mtd2csq4N4RnCDYKP0xH9GjFpIupPyHKUuUy1XivhKtsAgQq28Cds6uhbr7GoHH3mMrrj/OdMjxP+Gd9499qlPchCwgDx2H7x8BWa5g2llmTMtqLhZjHdmcAnfz2qOoxzkqS8PylSLsKV+/8AJaHidAL2AdTlVulQSe6NKuZwBHWOoORmmeK5yLuqyj6nQSzQIBBG5ECfSmFRnlbTknTDGcdZnHkTRjla9yw5LNp2BhYHjGIFRw4MuZNPhe/T/n5JzcIu+2Hw/ODZum4zXLilcL8UaemVUwoOep2962di8rqGUggiZBB39K5zzq4qNHyoikAAgazme7BJEkCT4+dUPA8VftXmuLda0mkEJOF1SQCOpO8HoQIrqLSbI3H9vczze87RQpKNIBiJEwdxPQ0dUlBgP7ROV3LwHwwCUZjBIEyvScTXK+acPcsC2t5QdYnSTkCRieh7vToa7rzRAbjA+IP/AEis5xvKEd1dgGKEaZVT8pJG4jr9qxaiDc7SIT0sMj33TMpwdhOIuCLDqmgDW8lWIgd3J39au7fZi38FrTsxByIibZJwV65gTOPeavvhnVqZ87D0HQdBRo4AJG8f7b1DHiinRrjKSj/gyXMeUMzwrfDCgA/3hk/5pjwqBzflRFiCxYl5nVOwxMn3jzrR8w5ihaJA6HMnzqFxd0G2M7MffCzWpJu/E38klJquClWyFf5vktKkekE/Wtv2AYfHuA/MbQj0DCfzFZHiLOtiB10kmt12D4ODcunwCj3JZvyT6VpjxFleR8GvNFQNFUCkigURaPOiINGBNMQdu5I2imuOYQn76/qP1p3TTHG28KZ2dT/1CkxmT7Q8taDcWSVacbjMgjxist2ouFGNwhyGghgsSGEgkGNJ6ET/ACG6423dXiVdW1WiIdPUmG/38qkc4t2/gM7Wy4UEwF1Hu9AOprA5tolgzSw5Ny69DiFzjEJwTJPUfarblPK1vLamQsXGb+FkA/OtJwvKrd1fjtwxt6ujqA25+kxNWVu2FTSFTbcCFHU1y9Xr0v6cW1Jf9NHW+rHKt8VwyPy3lD3LNx7QkqxXScFlKqMEnp3vrWl7I8Ug4dUnvpIcEEEEkkSD5UnsbflLi4wxj/StTeMsW3wIkTscidsjIxFd3QO8Ea9DnZm3N2SOKVCCHyBEiDGdsDesRxt+0vGBUVTcMMpZm7ifKzaesgQB1LeprW2+BIIK3GMwZJB2+XMZGT9ay/HcnVb4vZa7IOshCYSYUeC59fetyeNO5fAoX0iVyTjT8a8qgquGOpAjDUIVYyNxucmdqtb/ADBWVzbIEDJ67flWVPBOLr33vKpuFZVnhYsl2CgJ3oGszmaWl7+4B1aULLJ0aJk4gtLQB5Dr51bBR2pJdBLl2yYnAAp8W6SoMOSd2heg6KCT9BUHldhOM4hLMf3erXcMf4AWCz1JOD/Qqt5rZLAGWABJ+Zi2MjJOTVn/AGZy3FMxJMLjwEztUss2osj5HU6E0maE1gKzM9o+IKXh/mKR6klT/wCFReH4sRkRn9BU3tXbk2z4Nb//AE/9fSsL2m56eHMG1qYnHexEHJ/lWTNKUZcdG7DiWZKK7LrtFzmxZUF9TMTChR1IMn0xWN4ntLxFwabaBRJyDJk7GTgR5VX8XYuXba3ncsSxxGAIJOn8qrf2gghCSPtv0qm1J2ju4dDDTrxrd7+SHLnDzqaWLAfMWOTP5VNsczYcPbFwkyzZJ8xE+O0UXH3VXUo6Ez+gqHZRn4VlAmLkJjx+b+dW4W7ZDXqLxpv1/g1PAcQNRJM9xQsZEsv2wJ9q6h2Qs6bBOe85OfIKv/ia5VyzhLi22PT+7RR4lU7x9NhXXez6kcPbzuCfqxIH3rdXhPO5SyJoiaImkzUSkI0SrUJSyHJxUsXKYhTxTXFiUYDOJHqMj7ilMoopIoAynH3SlwFSSCJGehyR9RTHE82uOkKxEHJH2pHPi9lnOCk90dQGyRPUZOOlZ612htrqXYg7HwOeteR1Om1GKUljvbfkdfFGM0m1yaTg+Y/EPw7iSSMkbepHT2pt+CtCfmDRtJ056gbVneB7UoraBpmYydx4TOPXNTeL7V2ogAljsAVOfrP2qccUmvGufdeX55leWE4P+muPZmh7IOFdlg56+ZIj8vaq/hQzO1lGIYuVDNkAKoH2ANQ+x3NC10krpWVzMghgwjHqK0PIOZI5ZZxrLIYjDkssjzn7V29NNYcMfmjLUnJ32PcqLcPw7WnuKRbJCETIQgFNU9ZJGJ6VD5jxKwMy0YiZmdwen5UvirDFixGlRuxj39fACsvz/nZsNbVWwVloVQSTrHXwhT7nypvVQzTeKnF81a7+358l0IbfF2VvaflV+BdICoGLa7jQNwFUA7Ek77Cqrgb3Eb3LnDlFE5vJGPTUZ8BG9Ncfxd7jnDFwqpucSTO8Dr/QqRy7kIt6rjw5UTp8ZmCR4Df2qeDUfRWzd81/JLJGWR7i3scyS7bY5BlgNX4iFOsiPCfuK0P9mCd9j1+EhMeLCT+dYTgb51ue6BBgBQIwJI8PlGPTwroH9mfD4vtJyUHppRRp9orc8v1Ip+plkqs3s0c00KNielQKSBzpR3WOwB+oKkH2IrFf2lcs+KhdF78ggeQiQPrWr7RcVpRSRA1aT/ErfqBVFzd3a2CCJEQYmZjwIPSsWsk9jjHvg16Sbx5I5PQ52vGm2qW7gIIaYIzBVun0qs5s4u3BpEAkADYiTjB9am8fynirrm46aZczBAkkHbJMVN5f2TuKy3DpEEN3jmAZMYiceHWsqnDGk59m+f6xqssm8UEk/X/0Z5h2cK/3jXSRMsCJJ8BP+1WXBhFtIQsLJAxHoYqZquMxLZHmAAPQAZqE4ldOI1n7RFPHqnObUI8UVTUnBKci94ayZsiDkGPAksVx9q6Py/hvhWktzOlQCfEjc/Wuf9n2N3iLSnZCIHgAxc/lXRSa6kZWjnT4DJoppJNJJplY4ygikPIpFt8wTTmvMVIQQOBSyaau3oMUtGkUhlPzRAX0kSGSf9J/3rC897Ci42uw2hjkqZ0+3UGtzzttNyy0HSQ6H30sPsjU1bG3pXF12SWLNuj5o2YH4Dj/AP8AELxBOpZ8N5zHTI8dqgcbyLiEEOkAmJIP8p611bi7jZC6Mk9N/CTPQ1V8fwhcD4lxnIMjoB7CqMf6juXdv4Nf01fPCGOxPAHh7ROkG5GortswhZO2Aa23D8sHxLrkGLhmJGwONuv86oOScNFtyDqb8W34VkjHXvfernknNWe5bQwVa0GBjI3yfcV1cb3Y0pK0+/uc/NNRmROZcDddtCMfEED5QSYknr571Qc65K2iMG6AYbcT4+NdBXiFa58NW2nUNJ6DIk4pPGcKjbqD5xWHL+nScvqY5+JO+fT0LoauuGuDkfKuQvaDuTq2L5EdT+ppnjOZ2U+IFdndsHSpwPDO+/SupcVw9sWmSABFc45lx3DWSww9wGIA/NorXDTtNzny33/xx9hSzSkqgQOX8HqtNcKspOADgwRAPl18K6V2HQfBdvFyZ8+v6Vl+H4hWsWTEMzamx0UH67fetp2YsAcOvmST71uiqVGeV1yW7E+NLD0wqwfKluD0plZUdtB/9RzjulW9AHWT7AmuacFzprWpWLwoMTJQ6ZBA/wA3kK6tzLgvjWrltvxoy/6gRXIeZ8Rps3uFcHVJZT/hJIZgfLJPua5+sxOTVedfsb9JkSi01ZK43tbabRAbfP0xE7jekcZ2st6GCglgvdmM+I8ZrF2rJKzGoAQpG04G/pNRboIkxjriqY6LAn6/LLXOddUbHh+1tsJJBDeHpUS32gkJpEamaZ8FjUfufpWXX5ZAPrVnyzh9Tonhbz/GCT/3VtjGEF10Znubq+zp39lNt21XrjajnPrAA+5roxasx2H5b8HhlCiMnHkCf1mrkcSQYI96uxrw2UZH4iaWpBak6x0NJqRAeffegzZo1zS1PlTENlVfcQR9aP4ZXrNSLdonO1R+MvKhgtBoQCL1gXFhvEEeRUyDWT5w96wxW2Bt3ZBjJEiVxifv4Ctal4N+L6ZNVfMOF+K2iYDLEEE7GS+4OJAkdWHhWfU6aOaNS7LsOV45XVow13nt09z9mfUBEkjTjxb9ajK1+6YZlRepTAA8WdsKPvXRVssFEpw5AAjUDJwMs0GD7H1NGnBKCWYW8mYVSAJGQJMSfEAT9K58P0mCff8Ab/Jrlrl5Qr7lbyrhrdiytsBoKnvNILFzLMQc5gb5qRyrhwmlhuvdO2VksPprNXCoHEFQ30+oqouhg9y2k4AKmfOCOv5GteqbxQWz4/P2MkF9Ru/kbvu37QW2hhtsdsmrfiboIkEH8hVZxHBBml2I1AYzuAAdqxnbjlly2NKF2tn8Ic4J3BUtmYHj1rPpf9Rj3PLVPr1+/kaYYceaSinTJ/bTnQ/ZbnwmDGQsrJAk5yMYrl9sSyj+dWNvjriKFa1dADSdKlS2/wA0iCBsBjb1mBasXmYMqaQpklhgRnMflW7fF1yWywPFaXRvExpEzpSP9Q0/+VdI4GzptIvl+ZmPvXM+S2Xv3bS4gtLGMEAjFdODCrYtPo5+RV2GaUjdKaJzQt3PaplZJYVy/tzyYNxAcCCHAYeIeBPsGE+ldNFyqrnfBq+fxRgjeV6Vn1EW4XHtF2CW2XJybg+AucNbuA2/iHVKwQIz4H/eofGc21dw8MUPXun+VajieIu25DqWUmDjvCTiI6eVTbV621okDI3xBHsa8z9V79043720d7/ZFccexjBwutdJUgHBxG9WHZ3lgd9SA6nbfwBOAPtV3dU3O6sACM/n9prQdnOAVWUgbDV+YH6/Suto4SkvYw6nLFeXJp+GQW1CDYbTQDAnyoF5FNnNdc5JIa0N6QreNN2n6TnzozcGxoAmOI2ql4zmN74oFsAW1PeJ3Y9QvgB40puZcQ57nCsq+Lsg+wYn6gUatxBXvWF1eAuyB7lf0qE9zVRAHEc6dBqaPQTP0rIvzVuLuC24ACd6NRkyVgEg7So/o1Z8w4Djbz6dNu0niGLmPoBPqDUzlfZUWiLgaXAifGfH3AqGLG4du36krJHKOI129SgzJwcAeGBuKtOFtEnU0SRBjy29Bk48z40fCcGAuMEdKeWwQN6ubIjPGpOZI96r7V7ST4bGdj0yKncRYkQxxUYWlUEjalYDyDVkYpuzd7zTvMA+OKaa9PyAwN+g+pwKj3mY/wDLE6Rv0PgB4+tQzW8brsnB88lncvgjI29KqOe8rt37bd4jUACZxgmBnA36UqxxGrUNj/X6RTfE8S3wig0iBjHvtXAhr45PDkV+nybVjlCVx4ZgOb9nzYYfM6x3RM94/KcdKgrYvOzLeJVAM/hB2+oitZd4skajJjG/T6Yqr5g6XmAIO48dxRBxlK/2s3vNPbUl9zSdi+BCqDOwj7ePuK1AUjHQ1W8ltaLSScESfcn7VZkRivQY1UUjh5JbpNjDX9Jz6f8AunokeFIdJxSUEHy8DUyAacRGGHvSr8MAZ2P+35GkXUkSB7U1wwTO89QelDQCX4dWSYXPlOQdwdhkVT8w5QGXUCZ2/wBoiPrV7Z4hdpwRn3pi+srpgnPrWbJp4T4aLoZZR6ZnLHBXAVQtqzCiAN8AGtXy+wAhPjgei4X65P8AFVcLBENIBJgeXQmPL+VWbERA26VbjxqCpCyZHJ2wmukUi1ekwaZ+LODuKK4k9Y9KsKia1sHNIuCaaXiAME/zpTNjBoAsraUtGpDufw70aknpQA5SYqPen260dpvDNIB1EM70k3bkkDI8x/KKdZoGabt3jHy0AI1lhBUfU1HW2cgaAPIE/madvv0g5oktkGgBpuDDfOzN5fh+gxT9uyAIXanxbxNHJ8KAKDmXE27BOs6Qevj4VR8VzBLkjdQJwyEk9BhsCtN2j5el61pY6Tsp2PjAPsD7Vz9gOCR3uuNU/IykRuFbTjUCDuP0rz36hpHCW6K4ft5nX0bhOHfiQ/ecG2pAIB2Bid/Ko3KLJu39C4ghZ8CYLH+Fc+9UPE9o7l5wvDg3GPhb0gecT9zgV0TsXyn4SF2IZjOfNsu3vgDyHnVmg0T37pInq5fTg/VmnFpQAgggCAPIYFNwBg48PClq2YxRFZwa7xxQW386D0RSMRSfb3FABC2fH6VIs2AYkamHl+ZqCeMWQWP4iAB12AycATP1qwbiTAEaVxMbmeg8aYGZ4jXYdgIInbcZ6Qc+4pzg+aszQUVVAJYjVgAetaC7B+Yd0dIx7nx8vSoN2ygYgKAOsDfypIdlZyi8966mvSq5gAbwJgdScVa8XZKkldhuMyPGgrptp7v3GTsd6e/aDsx6d1vEdJ8aYECAwxBo7dsxBNR+LUBldD82D6+PvFKFwnf60hB3rQOCc0m2+nB28aWkbsJ86WVDYDD2pgXVpcZj2p62aQs0sCogGY2ohbA2ptt9qQSfGKADuXgMGggJ6YplWBwd6dRWXzFACiAcUYHSg1yRIwaSqg560AKSZzTd7iAglsZgDqT4AdTTXE8RGNz0A3noKrhxb3I0CRG53aRgAdPPbpQA1zTi0uppVjrR1OnIAIkRqjJnEg4ph+Mb4c/Cdo/CRPhtBhh5BZxtV3w3Le6gYAEZgT+fX6VIu8MBOlQPPz8cUK65Havgz1y84tSiBZMaQpBjqcsI9wKg8g45/wBoayQUthO6zTDuCIhogjST16Va3mYllbbb2ocJeCSn4fDp6+RqyDVNMaZMfiBBnukbz0qLZ48PtuKVxCgd4GVIIInxHTy/Kqu3bZG7pDRv9Y/SotCLu7xJiYqOl8+Zmmmv69gR405YtQIB9KQiCg1ModQyq+pCfwMcH26j+YrStdRVB36LVIbbA6h74wfIinbN9ZGdHkZZfOOo/SgCyNtioWZEyT96gcxt4O+f51YrfMd3S37pn8pqBdVnmUfG3dNNAVJtsIAkCfOpCNC5+5oOtwDK6fNyF/7oqLxdtnwvfPQZCe7HJ9APcU41fI0SzxIuBQOhP/v7/Y0dxDqGIB8aXwHLgB3vmO/8gPCp37KCsHMUn7CInwSIp22qjoKU6RjBFF+zg5nPlQBba6JHpmO9g4qT8OkA2zGaK7404UmmLt3RuftQABbMzT9toGaaTilOARS9QpAJvFfelacYoMtIL+dAFNzwMAjzAW4Cx6gGQT5RIPtS+QXSdSlYZHIEKQukklCDs3d3jE+G1SuMuSNJEg4OKY5fcNoQRKk4I6TUk7AvaRciKbtcUjDDD601evQDOIzQBTX1MkzBqE5YHJnwqzVRgmmuNClcHbwyftQkBCtv3lJMCYPgAfxe38qruH4ub7KNt9tp2H0H5Uni+Nx8O0pu3CflGY87jDCD/LufKp/IuVG2CWy7ZcnGT0HgBsBVkuI8kvIl/Cfdeu4phONKmGEVYBCpOMdM1G4q0H6QfGqSI/a4gnajexJke9It8OqCJIPntSmRlO/tFACHGIKz604thdj7CkLcVsEn0NOXFEbz+lCYBi0kzABqTbgHaoSxEE5FGbJiVJPvTAsHtg7GJppyRSLfEiJ69RTq3A1ACBcYxABHWjUkHIorb6TEYqWY60gIVi04iB96t0mM0wlzGcGhrcedMBV26RgCmGZjuKS/EmciCKkgyJ6UAQ2t9djSTxLAxEin7wByMGolzxIPpSAm2uKWN4NN3LwPn6VAuqD5GnLVs7g0gJ3w5FIRoxpxR2gSszSlYqDQAxxXL0bIwfKq67wLnAuGPHM/Y5q1e8SOlMBqlvaHZE/4M5H/ADFP8E/rUc9n+j3XZf8ADIUfRYn3mrW1xBB2JHjUj4gOD1pqbC2ReA4K3b7qgADaBFTLi+hpsWwDvilhDSsQw9zcRnwpNu0rD9KfK5pxloAhtZnekAT3QxmpWjNONa66ZoAqb/Lgxnc/SiHAQZ2Mb1OvWZyphvCq83bgOc+X60qAkCxHn60NcYjFPIwO1C4ik5MUAJIDLApkoRv9aULMNE05f22BpgNi95+s0/qJIzioSoCflYHz2p6zB2wRutAH/9k="></a>
+            </div>
+        </div>
+    <div class="container3">
+         <div class="col-md-8 mt-9 mb-8" align="left">
+            <table class="table table-striped">
+              <tr>
+                <td>MAIN INGREDIENTS/</td>
+                  <td>STEPS</td>
+                  <td>Flan</td>
+                  <td>Corn assembly</td>
+              </tr>
+              <tr>
+                <td>Mango jelly</td>
+                <td>Blend lime zest, lime juice, mango halves, and the salt in a blender until smoothened.</td>
+                <td>Place a rack in the middle of the oven preheated to 350. Cook sugar and 1 tbsp. water in a small saucepan over medium heat, stirring until sugar is dissolved, then cook alone, in a swirling pan occassionally.</td>
+                <td>Spread out corn on a rimmed baking sheet. Sprinkle sugar and salt over, then drizzle oil over and toss to combine. Roast until crisped slightly but not yet browned and a little sticky, 12–15 minutes. Let cool.</td>
+              </tr>
+              <tr>
+                <td>Zest and juice of 1/2 lime</td>
+                <td>Heat gelatin and 1/2 water in a small saucepan over medium heat, stirring until gelatin is dissolved. Remove from the heat and add the mango puree. Pour jelly in. Carefully add remaining mangoes and stir to combine.
+                Cover jelly tightly.</td>
+                <td>Place a rack in the middle of the oven preheated to 350. Cook sugar and 1 tbsp. water in a small saucepan over medium heat, stirring until sugar is dissolved, then cook alone, in a swirling pan occassionally</td>
+                <td>Meanwhile, bring sago pearls and ½ cup water to a simmer in a small saucepan and cook until translucent and firm-tender, 8–10 minutes. Drain, then combine in a small bowl with coconut milk, stirring well to separate pearls. Let cool.</td>
+              </tr>
+              <tr>
+                <td>2 ripe mangoes, peeled, cut into cubes</td>
+                <td>4 large egg yolks, 1/2 cup and 2 tbsp. unsweetened coconut milk, 1/2 cup sweetened condensed milk 1/2 tbsp. vanilla extract and 1/4 tsp. kosher salt</td>
+                <td>Whisk egg yolks, coconut milk, condensed milk, vanilla, and salt in a medium bowl to combine. Pour through a fine-mesh sieve into loaf pan with caramel. Cover with foil. Set inside a roasting pan and place on oven rack. Carefully pour hot water into roasting pan to come halfway up sides of loaf pan (a tea kettle makes this easy if you have one)</td>
+              </tr>
+                <td>Kosher salt</td>
+              <tr>
+                <td>Unflavored powdered gelatin</td>
+              </tr>
+              <tr>
+                
+                
+              </tr>
+              <ul>
+                <p>Corn and assembly<p>
+                <li>2 ears of yellow corn, shucked, kernels removed</li>
+                <li>3 tbsp. sugar</li>
+                <li>1 tsp. vegetable oil</li>
+                <li>1/4 cup small sago pearls</li>
+                <li>1 1/2 cups unsweetened coconut milk</li>
+                <li>1/4 cup sweetened shredded coconut</li>
+                <li>Ube ice cream</li>
+                <li>14-oz pandan/sweetened coconut milk </li>
+                <li>Sliced strawberries, 1 cup macapuno, and 1/2 drained palm seeds. Sweetened red beans for serving.</li>
+              </ul>
+              <ul>
+
+               
+                
+                <li> Whisk egg yolks, coconut milk, condensed milk, vanilla, and salt in a medium bowl to combine. Pour through a fine-mesh sieve into loaf pan with caramel. Cover with foil. Set inside a roasting pan and place on oven rack. Carefully pour hot water into roasting pan to come halfway up sides of loaf pan (a tea kettle makes this easy if you have one).</li>
+                <li>Bake flan until just set in the center (it should still wobble a little when gently jiggled) and barely golden on top, 55–60 minutes. Let cool (still covered), then chill until cold, at least 4 hours. </li>
+              </ul>
+              
+                <li>Toast coconut in a small skillet over medium heat until edges start to brown and crisp, about 5 minutes exactly</li>
+                <li>Cut flan into 1"pieces and divide some among tall glasses or wide bowls. Cut out mango jelly into desired shapes and arrange on top, then spoon in ice cream, condensed milk, shaved ice, strawberries, macapuno, palm seeds, corn, sago pearls, toasted coconut, red beans, and pinipig as desired.</li>
+              </ul>
+            </table>
+          </div>
+          <a href="file:///Users/allieadm/Desktop/2q/profile/index.html">Aurelia De Mata</a> 
+        </div>
+    </div>
+  </div>
+    </div>
+  </body>
+</html>
